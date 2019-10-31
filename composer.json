@@ -1,0 +1,29 @@
+{
+    "name": "funsoul/fundi",
+    "description": "yet another di for psr11",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "funsoul",
+            "email": "cyanming2016@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "psr/container": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Funsoul\\FunDi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FunsoulTest\\FunDi\\": "tests/"
+        }
+    }
+}
